@@ -87,7 +87,4 @@ AnalystLab-Week1-2-EDA-Project/
 ├── reports/
 │   └── Week1_2_Project_Report.pdf
 │
-├── images/
-│   └── (your charts/screenshots if you want)
-│
 ├── README.md
