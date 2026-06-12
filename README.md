@@ -1,64 +1,93 @@
-# AnalystLab Africa Internship – Week 1 & 2
+# AnalystLab Africa Internship – Week 1 & 2 Project
 
 ## 📊 Project Title
 Data Cleaning & Exploratory Data Analysis (EDA)
 
----
-
 ## 📌 Overview
-This project focuses on cleaning raw datasets and performing exploratory data analysis using Python. The goal is to prepare data for analysis and extract meaningful insights.
+This project is part of the AnalystLab Africa Internship Program. It focuses on cleaning raw datasets and performing exploratory data analysis to extract meaningful insights.
 
----
+The goal is to demonstrate skills in:
+- Data cleaning
+- Data preprocessing
+- Exploratory data analysis (EDA)
+- Data visualization
+- Insight generation
 
 ## 📁 Datasets Used
-- Online Retail Dataset (Kaggle)
-- Netflix Movies & TV Shows Dataset (Kaggle)
 
----
+### 1. Online Retail Dataset
+A transactional dataset containing sales records from a UK-based online retail store.
 
-## 🛠 Tools Used
+### 2. Netflix Movies & TV Shows Dataset
+A dataset containing information about movies and TV shows available on Netflix.
+
+## 🛠 Tools & Libraries Used
 - Python
 - Pandas
 - Matplotlib
 - Seaborn
 - Jupyter Notebook (VS Code)
 
----
-
 ## 🧹 Data Cleaning Process
+
+### Online Retail Dataset:
 - Handled missing values
 - Removed duplicate records
 - Standardized column names
-- Converted data types
-- Created new calculated fields (Revenue)
+- Converted date columns to datetime format
+- Created a Revenue column (Quantity × UnitPrice)
 
----
+### Netflix Dataset:
+- Filled missing values in key columns
+- Removed duplicate records
+- Standardized date formats
+- Converted date_added to datetime
+- Cleaned and structured categorical fields
 
-## 📊 Exploratory Data Analysis
-- Top-selling products
-- Revenue by country
-- Monthly sales trends
-- Customer analysis
-- Content distribution (Netflix dataset)
+## 📊 Exploratory Data Analysis (EDA)
 
----
+### Online Retail Insights:
+- Top-selling products identified
+- Revenue by country analysis performed
+- Monthly sales trends analyzed
+- Customer purchasing behavior explored
 
-## ⚠️ Errors Encountered
-- FileNotFoundError (incorrect file path)
-- UnicodeDecodeError (encoding issue)
-- NameError (undefined variables)
-- KeyError (column mismatch after cleaning)
-- Notebook kernel reset issues
+### Netflix Insights:
+- Movies dominate TV Shows in content distribution
+- The United States and India are the top content producers
+- Content growth has increased over the years
+- Drama is the most common genre category
 
----
+## ⚠️ Challenges Faced
+- File path errors (FileNotFoundError)
+- Encoding issues (UnicodeDecodeError)
+- Undefined variables (NameError)
+- Column mismatch issues (KeyError)
+- Date formatting inconsistencies
 
-## 📈 Key Insights
-- UK is the top revenue-generating country
-- Few products generate most sales
-- Netflix content is dominated by movies
-- Sales show seasonal variation
+These were resolved through debugging and proper data preprocessing techniques.
 
----
+## 📈 Key Learnings
+- Importance of data cleaning before analysis
+- Handling real-world messy datasets
+- Debugging Python errors in Jupyter notebooks
+- Building structured EDA workflows
+- Creating meaningful data visualizations
 
-## 🚀 Author
-AnalystLab Africa Internship Participant
+## 📂 Project Structure
+AnalystLab-Week1-2-EDA-Project/
+│
+├── notebooks/
+│   └── analystlab_week1_2_project.ipynb
+│
+├── data/
+│   ├── online_retail_cleaned.csv
+│   ├── netflix_cleaned.csv
+│
+├── reports/
+│   └── Week1_2_Project_Report.pdf
+│
+├── images/
+│   └── (your charts/screenshots if you want)
+│
+├── README.md
