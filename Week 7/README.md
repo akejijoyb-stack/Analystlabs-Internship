@@ -24,5 +24,8 @@ Based on the data extracted on July 17, 2026:
 * **Humidity Levels:** **Edo** recorded the highest humidity level at **98%**, while **Plateau** had the lowest at **47%**.
 * **Wind & Weather Conditions:** All 16 states experienced cloudy conditions. **Maiduguri** observed the strongest winds at **5.86 m/s**, and **Benue** had the calmest air at **0.46 m/s**.
 
+## Project Demo Video
+You can watch the full 2-5 minute project walk-through and live execution demo here: 
+🔗 [Watch the Demo Video on Google Drive](http://bit.ly/4hlakRq)
 ---
 *Developed by Joy - AnalystLab Africa Batch B Intern*
