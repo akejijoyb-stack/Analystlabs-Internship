@@ -89,9 +89,10 @@ An interactive single-page Power BI dashboard including:
 ---
 
 ## How to Reproduce
-1. Download the World Bank WDI dataset CSV files.
-2. Place the cleaned dataset in the `data/` folder.
-3. Open `Global_Healthcare_and_Life_Expectancy.pbix` in Power BI Desktop to explore the interactive dashboard.
+1. Download 'WDI_CSV.zip' from the World Bank WDI bulk download page.
+2. Extract and place 'WDICSV.csv', 'WDICountry.csv', in the same folder as the notebook.
+3. Open 'Analysis.ipynb' in Jupyter and run all cells in order.
+4. Open `Global_Healthcare_and_Life_Expectancy.pbix` in Power BI Desktop to explore the interactive dashboard.
 
 ---
 
