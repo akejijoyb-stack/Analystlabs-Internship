@@ -95,6 +95,7 @@ An interactive single-page Power BI dashboard including:
 3. **Run Pipeline:** Open `Analysis.ipynb` in Jupyter Notebook and execute all cells in sequential order to run the cleaning pipeline and generate the processed dataset.
 4. **Explore Dashboard:** Open `Global_Healthcare_and_Life_Expectancy.pbix` in Power BI Desktop to interact with the dashboard and examine the underlying DAX measures.
 
+Demo Video: https://shorturl.at/vChuC
 ---
 
 ## Author
