@@ -96,6 +96,4 @@ An interactive single-page Power BI dashboard including:
 ---
 
 ## Author
-Joy — AnalystLab Africa Data Analytics Internship Program — Batch B (June–August 2026)
-#AnalystLabAfrica #DataAnalytics #PowerBI #Python
-"""
+Joy Akeji
