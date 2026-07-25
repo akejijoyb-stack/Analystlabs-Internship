@@ -1,11 +1,10 @@
-# Global Healthcare Investment & Life Expectancy Dynamics (2000–2023)
+## Global Healthcare Investment & Life Expectancy Dynamics (2000–2023)
 
-## Project Overview
-This project delivers an end-to-end data analytics evaluation of how healthcare expenditure and preventative care interventions influence global population health outcomes across 200+ countries from 2000 through 2023.
+Capstone Project — AnalystLab Africa Data Analytics Internship Program (Batch B)
+An end-to-end data analytics project exploring global healthcare expenditure, preventative care interventions, and population health outcomes using the World Bank's World Development Indicators (WDI) dataset — from raw data cleaning through exploratory analysis to an interactive Power BI dashboard.
 
-By processing data from the **World Bank Development Indicators (WDI)** database, this interactive Power BI dashboard examines the relationships between **Life Expectancy**, **Under-5 Child Mortality**, **Health Expenditure (% of GDP)**, and **Measles Immunization Coverage**.
-
----
+## Project Objective
+To analyze how global healthcare spending and preventative care (measles immunization) influence child mortality and life expectancy between 2000 and 2023, evaluate regional health disparities, and assess spending efficiency across different income tiers.
 
 ## Executive Dashboard Summary
 
@@ -18,75 +17,88 @@ By processing data from the **World Bank Development Indicators (WDI)** database
 
 ---
 
-## Dashboard Screenshots
+## Dataset
+Source: World Bank World Development Indicators (WDI)
+Indicators selected (4 core healthcare indicators):
+* Life expectancy at birth, total (years) [SP.DYN.LE00.IN]
+* Current health expenditure (% of GDP) [SH.XPD.CHEX.GD.ZS]
+* Mortality rate, under-5 (number of deaths) [SH.DTH.MORT]
+* Immunization, measles (% of children ages 12-23 months) [SH.IMM.MEAS]
 
-### 1. Executive Banner & Core Dashboard Layout
-
-<img width="774" height="442" alt="Global Health   Life Expectancy" src="https://github.com/user-attachments/assets/3f47abcf-a797-4f34-966a-8129949448e1" />
- 
+Scope after cleaning: 200+ countries and regional aggregates across 2000–2023.
 
 ---
 
+## Data Cleaning Summary
+
+| Issue Found | Action Taken |
+| :--- | :--- |
+| **Missing values in early years** | Left as NaN; scoped analysis timeframe to 2000–2023. |
+| **Duplicate records** | Verified on Country Code + Indicator Code + Year; zero duplicates found. |
+| **Aggregate regions mixed with countries** | Filtered individual country records and maintained regional/income aggregates for macro comparisons. |
+| **Scale mismatch on percentages** | Handled scale formatting in DAX (`/100`) so Power BI displays `85.0%` for measles coverage and `6.2%` for health spend. |
+| **Under-5 mortality metric structure** | Classified metric as aggregated annual headcount (`355K Avg Annual Under-5 Deaths`) rather than a ratio to maintain statistical accuracy. |
+
+---
+
+## Key Insights
+* **Global Life Expectancy & Spend Baseline:** Between 2000 and 2023, average global life expectancy reached **70.5 years**, supported by an average national health spend of **6.2% of GDP**.
+* **Immunization Target Gap:** Global measles immunization coverage averages **85.0%**—falling 10.0% short of the **95% WHO Herd Immunity Target**—contributing to an average of **355,000 under-5 child deaths** annually across analyzed regions.
+* **Preventative Care ROI:** High-performing regions meeting the 95% immunization threshold (Europe & Central Asia, North America) report minimal child mortality, whereas lagging regions (Sub-Saharan Africa, South Asia) bear the largest burden of child deaths.
+* **Expenditure Efficiency:** Scatter plot analysis shows diminishing returns on expenditure above 8–10% of GDP. Several middle-income nations achieve strong longevity (>72 years) on modest expenditure budgets (<6% of GDP).
+* **Pandemic Impact & Recovery:** Life expectancy trend lines show steady progress from 2000 to 2019, followed by a visible pandemic-related drop in 2020 and a steady recovery through 2023.
+
+---
+
+## Dashboard
+
+An interactive single-page Power BI dashboard including:
+* **4 KPI Cards:** Avg Life Expectancy (70.5), Avg Annual Under-5 Deaths (355K), Avg Health Spend % GDP (6.2%), and Measles Coverage % (85.0% vs 0.95 WHO Target)
+* **Health Spend % GDP vs Life Expectancy:** Scatter plot evaluating spending efficiency across income groups
+* **Life Expectancy Trend over Time:** Line chart tracking longevity progress from 2000 to 2023
+* **Top and Bottom 10 Countries by Measles Coverage:** Bar chart highlighting highest and lowest performing countries
+* **Measles Coverage % and Avg Annual Under-5 Deaths by Region:** Dual-axis chart with a constant reference line for the 95% WHO Target
+* **Income Group, Year, and Region Slicers**
+
+---
+
+## Dashboard Screenshots & Analytical Deep Dives
+
+### 1. Executive Banner & Core Dashboard Layout
+<img width="774" height="442" alt="Dashboard_Overview" src="https://github.com/user-attachments/assets/85dd0594-a312-4065-ba61-e0aa20f7aaa1" />
 
 ### 2. Analytical Deep Dives
 
 | Health Spend vs. Life Expectancy | Life Expectancy Trend (2000–2023) |
 | :---: | :---: |
-| <img width="318" height="214" alt="Health_Spend_vs_Life_Expectancy" src="https://github.com/user-attachments/assets/e99e9394-4fa2-4460-9926-015354cf41ed" />| <img width="402" height="218" alt="Life_Expectancy_Trend_overtime" src="https://github.com/user-attachments/assets/a1775774-c671-41d4-ad5f-79b01a7899cf" /> |
+| <img width="318" height="214" alt="Health_Spend_vs_Life_Expectancy" src="https://github.com/user-attachments/assets/df4d1129-bf02-48ed-9564-f0f6f480d3f9" />
+ |  <img width="402" height="218" alt="Life_Expectancy_Trend_overtime" src="https://github.com/user-attachments/assets/8f641721-188b-414f-80ba-707b0e0cdf18" /> |
 | *Evaluates spending efficiency across income groups.* | *Tracks longevity progress and pandemic rebound.* |
 
 | Top & Bottom Countries (Measles Coverage) | Regional Immunization vs Child Mortality |
 | :---: | :---: |
-| <img width="315" height="208" alt="Top_10_and_Bottom_10 Countries_by_Measles_Coverage" src="https://github.com/user-attachments/assets/b2ee9c43-868e-4ae6-b295-0e226dfc3b91" /> | <img width="406" height="210" alt="Measles_Coverage_vs_Avg_Annual_Under_5_Death" src="https://github.com/user-attachments/assets/dc6a361b-3f4e-4e3c-bb7f-470975b20979" /> |
+| <img width="315" height="208" alt="Top_10_and_Bottom_10 Countries_by_Measles_Coverage" src="https://github.com/user-attachments/assets/c328074a-506c-45ad-9efc-fdccdfe1049a" /> | 
+<img width="406" height="210" alt="Measles_Coverage_vs_Avg_Annual_Under_5_Death" src="https://github.com/user-attachments/assets/31441789-60f3-4e34-bc3d-16bea08ad73b" />
+ |
 | *Highlights highest and lowest performing territories.* | *Compares coverage against the 95% WHO Target line.* |
 
 ---
 
-## Key Findings
-
-1. **Preventative Care Drives Survival:** Regions achieving or exceeding the **95% WHO Measles Target** (e.g., Europe & North America) maintain near-zero under-5 mortality. Sub-Saharan Africa and South Asia bear the largest share of child mortality due to immunization coverage deficits.
-2. **Spending Efficiency Varies:** Higher health expenditure (% of GDP) generally correlates with longer life expectancy, but several lower-middle-income nations achieve high longevity (>72 years) on modest budgets (<6% of GDP).
-3. **Resilience & Recovery:** Life expectancy trend lines show steady upward growth from 2000 to 2019, followed by a visible pandemic dip in 2020 and a rapid recovery through 2023.
+## Tools Used
+* **Python (Jupyter Notebook):** pandas for cleaning, reshaping, and exploratory data analysis
+* **Power BI Desktop:** interactive dashboard, DAX measures, KPI cards, custom visual analytics
+* **Data Source:** World Bank WDI bulk download dataset
 
 ---
 
-## Data Architecture & DAX Measures Reference
+## How to Reproduce
+1. Download the World Bank WDI dataset CSV files.
+2. Place the cleaned dataset in the `data/` folder.
+3. Open `Global_Healthcare_and_Life_Expectancy.pbix` in Power BI Desktop to explore the interactive dashboard.
 
-All core metrics were constructed in Power BI using custom DAX measures to ensure proper aggregation across aggregated multi-year country records:
+---
 
-```dax
-// 1. Average Life Expectancy
-Avg Life Expectancy = 
-CALCULATE(
-    AVERAGE('WDI_Healthcare_Cleaned'[Value]), 
-    'WDI_Healthcare_Cleaned'[Indicator Code] = "SP.DYN.LE00.IN"
-)
-
-// 2. Average Health Spend % GDP (Divided by 100 for true percentage scaling)
-Avg Health Spend % GDP = 
-DIVIDE(
-    CALCULATE(
-        AVERAGE('WDI_Healthcare_Cleaned'[Value]), 
-        REMOVEFILTERS('WDI_Healthcare_Cleaned'[Indicator Code]),
-        'WDI_Healthcare_Cleaned'[Indicator Code] = "SH.XPD.CHEX.GD.ZS"
-    ),
-    100
-)
-
-// 3. Average Annual Under-5 Child Deaths
-Avg Annual Under 5 Deaths = 
-CALCULATE(
-    AVERAGE('WDI_Healthcare_Cleaned'[Value]), 
-    'WDI_Healthcare_Cleaned'[Indicator Code] = "SH.DTH.MORT"
-)
-
-// 4. Measles Immunization Coverage %
-Measles Coverage % = 
-DIVIDE(
-    CALCULATE(
-        AVERAGE('WDI_Healthcare_Cleaned'[Value]), 
-        REMOVEFILTERS('WDI_Healthcare_Cleaned'[Indicator Code]),
-        'WDI_Healthcare_Cleaned'[Indicator Code] = "SH.IMM.MEAS"
-    ),
-    100
-)
+## Author
+Joy — AnalystLab Africa Data Analytics Internship Program — Batch B (June–August 2026)
+#AnalystLabAfrica #DataAnalytics #PowerBI #Python
+"""
