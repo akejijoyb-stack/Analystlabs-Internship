@@ -1,18 +1,13 @@
-import os
+# Global Healthcare Investment & Life Expectancy Dynamics (2000–2023)
 
-# Define the README content
-readme_content = """# Global Healthcare Investment & Life Expectancy Dynamics (2000–2023)
-
-![Power BI Banner](docs/screenshots/dashboard_overview.png) <!-- 👈 PLACE YOUR FULL DASHBOARD SCREENSHOT HERE -->
-
-## 📌 Project Overview
+## Project Overview
 This project delivers an end-to-end data analytics evaluation of how healthcare expenditure and preventative care interventions influence global population health outcomes across 200+ countries from 2000 through 2023.
 
 By processing data from the **World Bank Development Indicators (WDI)** database, this interactive Power BI dashboard examines the relationships between **Life Expectancy**, **Under-5 Child Mortality**, **Health Expenditure (% of GDP)**, and **Measles Immunization Coverage**.
 
 ---
 
-## 📊 Executive Dashboard Summary
+## Executive Dashboard Summary
 
 | Metric | Value | Baseline Reference / Target |
 | :--- | :--- | :--- |
@@ -23,13 +18,11 @@ By processing data from the **World Bank Development Indicators (WDI)** database
 
 ---
 
-## 📸 Dashboard Screenshots
+## Dashboard Screenshots
 
 ### 1. Executive Banner & Core Dashboard Layout
-> *Place your main Power BI canvas screenshot showing all four KPI cards and charts here.*
 
 ![Full Dashboard Overview](docs/screenshots/dashboard_overview.png) 
-<!-- 👈 PLACE SCREENSHOT OF YOUR FULL DASHBOARD CANVAS HERE -->
 
 ---
 
@@ -47,7 +40,7 @@ By processing data from the **World Bank Development Indicators (WDI)** database
 
 ---
 
-## 💡 Key Findings
+## Key Findings
 
 1. **Preventative Care Drives Survival:** Regions achieving or exceeding the **95% WHO Measles Target** (e.g., Europe & North America) maintain near-zero under-5 mortality. Sub-Saharan Africa and South Asia bear the largest share of child mortality due to immunization coverage deficits.
 2. **Spending Efficiency Varies:** Higher health expenditure (% of GDP) generally correlates with longer life expectancy, but several lower-middle-income nations achieve high longevity (>72 years) on modest budgets (<6% of GDP).
@@ -55,7 +48,7 @@ By processing data from the **World Bank Development Indicators (WDI)** database
 
 ---
 
-## 🛠️ Data Architecture & DAX Measures Reference
+## Data Architecture & DAX Measures Reference
 
 All core metrics were constructed in Power BI using custom DAX measures to ensure proper aggregation across aggregated multi-year country records:
 
