@@ -1,7 +1,7 @@
 ## Global Healthcare Investment & Life Expectancy Dynamics (2000–2023)
 
-Capstone Project — AnalystLab Africa Data Analytics Internship Program (Batch B)
-An end-to-end data analytics project exploring global healthcare expenditure, preventative care interventions, and population health outcomes using the World Bank's World Development Indicators (WDI) dataset — from raw data cleaning through exploratory analysis to an interactive Power BI dashboard.
+## Capstone Project — AnalystLab Africa Data Analytics Internship Program (Batch B)
+An end-to-end data analytics project exploring global healthcare expenditure, preventative care interventions, and population health outcomes using the World Bank's World Development Indicators (WDI) dataset from raw data cleaning through exploratory analysis to an interactive Power BI dashboard.
 
 ## Project Objective
 To analyze how global healthcare spending and preventative care (measles immunization) influence child mortality and life expectancy between 2000 and 2023, evaluate regional health disparities, and assess spending efficiency across different income tiers.
