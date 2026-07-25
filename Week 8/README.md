@@ -22,20 +22,25 @@ By processing data from the **World Bank Development Indicators (WDI)** database
 
 ### 1. Executive Banner & Core Dashboard Layout
 
-![Full Dashboard Overview](docs/screenshots/dashboard_overview.png) 
+<img width="774" height="442" alt="Global Health   Life Expectancy" src="https://github.com/user-attachments/assets/3f47abcf-a797-4f34-966a-8129949448e1" />
+ 
 
 ---
+
 
 ### 2. Analytical Deep Dives
 
 | Health Spend vs. Life Expectancy | Life Expectancy Trend (2000–2023) |
 | :---: | :---: |
-| ![Scatter Plot](docs/screenshots/scatter_plot.png) | ![Trend Chart](docs/screenshots/trend_chart.png) |
+|  <img width="318" height="214" alt="Health_Spend_vs_Life_Expectancy" src="https://github.com/user-attachments/assets/5fb96eac-bfa3-47ed-ae86-d72d3eeba7eb" />
+| <img width="402" height="218" alt="Life_Expectancy_Trend_overtime" src="https://github.com/user-attachments/assets/3d985eec-2c93-4598-adf4-fde001d3ee19" /> |
 | *Evaluates spending efficiency across income groups.* | *Tracks longevity progress and pandemic rebound.* |
 
 | Top & Bottom Countries (Measles Coverage) | Regional Immunization vs Child Mortality |
 | :---: | :---: |
-| ![Bar Chart](docs/screenshots/bar_chart.png) | ![Dual Axis Chart](docs/screenshots/dual_axis_chart.png) |
+| <img width="315" height="208" alt="Top_10_and_Bottom_10 Countries_by_Measles_Coverage" src="https://github.com/user-attachments/assets/fbbca45b-b583-4a75-a281-df69d7274de1" />
+ | )<img width="406" height="210" alt="Measles_Coverage_vs_Avg_Annual_Under_5_Death" src="https://github.com/user-attachments/assets/247631be-9e66-4d89-ab4c-571bb997c76a" />
+ |
 | *Highlights highest and lowest performing territories.* | *Compares coverage against the 95% WHO Target line.* |
 
 ---
