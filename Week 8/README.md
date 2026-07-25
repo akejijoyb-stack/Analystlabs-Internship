@@ -32,17 +32,16 @@ By processing data from the **World Bank Development Indicators (WDI)** database
 
 | Health Spend vs. Life Expectancy | Life Expectancy Trend (2000–2023) |
 | :---: | :---: |
-|  <img width="318" height="214" alt="Health_Spend_vs_Life_Expectancy" src="https://github.com/user-attachments/assets/5fb96eac-bfa3-47ed-ae86-d72d3eeba7eb" />||<img width="402" height="218" al"Life_Expectancy_Trend_overtime" src="https://github.com/user-attachments/assets/b2095d9f-bc68-4615-91e8-9f3462fa010d" />|
-| *Evaluates spending efficiency across income groups.* | *Tracks longevity progress and pandemic rebout=nd.* 
-
+| (<img width="318" height="214" alt="Health_Spend_vs_Life_Expectancy" src="https://github.com/user-attachments/assets/e99e9394-4fa2-4460-9926-015354cf41ed" />)
+)| ![Trend Chart](<img width="402" height="218" alt="Life_Expectancy_Trend_overtime" src="https://github.com/user-attachments/assets/a1775774-c671-41d4-ad5f-79b01a7899cf" />) |
+| *Evaluates spending efficiency across income groups.* | *Tracks longevity progress and pandemic rebound.* |
 
 | Top & Bottom Countries (Measles Coverage) | Regional Immunization vs Child Mortality |
 | :---: | :---: |
-| <img width="315" height="208" alt="Top_10_and_Bottom_10 Countries_by_Measles_Coverage" src="https://github.com/user-attachments/assets/fbbca45b-b583-4a75-a281-df69d7274de1" />
- | )<img width="406" height="210" alt="Measles_Coverage_vs_Avg_Annual_Under_5_Death" src="https://github.com/user-attachments/assets/247631be-9e66-4d89-ab4c-571bb997c76a" />
- |
+| (<img width="315" height="208" alt="Top_10_and_Bottom_10 Countries_by_Measles_Coverage" src="https://github.com/user-attachments/assets/b2ee9c43-868e-4ae6-b295-0e226dfc3b91" />) (<img width="406" height="210" alt="Measles_Coverage_vs_Avg_Annual_Under_5_Death" src="https://github.com/user-attachments/assets/dc6a361b-3f4e-4e3c-bb7f-470975b20979" />) |
 | *Highlights highest and lowest performing territories.* | *Compares coverage against the 95% WHO Target line.* |
 
+---
 ---
 
 ## Key Findings
