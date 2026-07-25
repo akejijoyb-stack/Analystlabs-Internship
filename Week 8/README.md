@@ -71,14 +71,12 @@ An interactive single-page Power BI dashboard including:
 
 | Health Spend vs. Life Expectancy | Life Expectancy Trend (2000–2023) |
 | :---: | :---: |
-| <img width="318" height="214" alt="Health_Spend_vs_Life_Expectancy" src="https://github.com/user-attachments/assets/df4d1129-bf02-48ed-9564-f0f6f480d3f9" /> |  
-| <img width="402" height="218" alt="Life_Expectancy_Trend_overtime" src="https://github.com/user-attachments/assets/8f641721-188b-414f-80ba-707b0e0cdf18" /> |
+| <img width="318" height="214" alt="Health_Spend_vs_Life_Expectancy" src="https://github.com/user-attachments/assets/df4d1129-bf02-48ed-9564-f0f6f480d3f9" /> | <img width="402" height="218" alt="Life_Expectancy_Trend_overtime" src="https://github.com/user-attachments/assets/8f641721-188b-414f-80ba-707b0e0cdf18" /> |
 | *Evaluates spending efficiency across income groups.* | *Tracks longevity progress and pandemic rebound.* |
 
 | Top & Bottom Countries (Measles Coverage) | Regional Immunization vs Child Mortality |
 | :---: | :---: |
-| <img width="315" height="208" alt="Top_10_and_Bottom_10 Countries_by_Measles_Coverage" src="https://github.com/user-attachments/assets/c328074a-506c-45ad-9efc-fdccdfe1049a" /> | 
-| <img width="406" height="210" alt="Measles_Coverage_vs_Avg_Annual_Under_5_Death" src="https://github.com/user-attachments/assets/31441789-60f3-4e34-bc3d-16bea08ad73b" /> |
+| <img width="315" height="208" alt="Top_10_and_Bottom_10 Countries_by_Measles_Coverage" src="https://github.com/user-attachments/assets/c328074a-506c-45ad-9efc-fdccdfe1049a" /> | <img width="406" height="210" alt="Measles_Coverage_vs_Avg_Annual_Under_5_Death" src="https://github.com/user-attachments/assets/31441789-60f3-4e34-bc3d-16bea08ad73b" /> |
 | *Highlights highest and lowest performing territories.* | *Compares coverage against the 95% WHO Target line.* |
 
 ---
