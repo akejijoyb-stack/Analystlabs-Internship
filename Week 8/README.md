@@ -32,8 +32,8 @@ By processing data from the **World Bank Development Indicators (WDI)** database
 
 | Health Spend vs. Life Expectancy | Life Expectancy Trend (2000–2023) |
 | :---: | :---: |
-|  <img width="318" height="214" alt="Health_Spend_vs_Life_Expectancy" src="https://github.com/user-attachments/assets/5fb96eac-bfa3-47ed-ae86-d72d3eeba7eb" />
-| *Evaluates spending efficiency across income groups.* | *Tracks longevity progress and pandemic rebound.* |<img width="402" height="218" alt="Life_Expectancy_Trend_overtime" src="https://github.com/user-attachments/assets/b2095d9f-bc68-4615-91e8-9f3462fa010d" />
+|  <img width="318" height="214" alt="Health_Spend_vs_Life_Expectancy" src="https://github.com/user-attachments/assets/5fb96eac-bfa3-47ed-ae86-d72d3eeba7eb" />||<img width="402" height="218" al"Life_Expectancy_Trend_overtime" src="https://github.com/user-attachments/assets/b2095d9f-bc68-4615-91e8-9f3462fa010d" />|
+| *Evaluates spending efficiency across income groups.* | *Tracks longevity progress and pandemic rebout=nd.* 
 
 
 | Top & Bottom Countries (Measles Coverage) | Regional Immunization vs Child Mortality |
