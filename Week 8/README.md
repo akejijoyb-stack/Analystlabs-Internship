@@ -18,8 +18,8 @@ To analyze how global healthcare spending and preventative care (measles immuniz
 ---
 
 ## Dataset
-Source: World Bank World Development Indicators (WDI)
-Indicators selected (4 core healthcare indicators):
+* Source: (https://datatopics.worldbank.org/world-development-indicators/) World Bank World Development Indicators (WDI)
+* Indicators selected (4 core healthcare indicators):
 * Life expectancy at birth, total (years) [SP.DYN.LE00.IN]
 * Current health expenditure (% of GDP) [SH.XPD.CHEX.GD.ZS]
 * Mortality rate, under-5 (number of deaths) [SH.DTH.MORT]
